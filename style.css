@@ -70,15 +70,16 @@ input {
 button {
     font-weight: 700;
     color: #FFFFFF;
+    text-shadow: 0 .2rem .2rem rgba(0, 0, 0, 0.25);
 
     background: #7879F1;
     border-radius: 0 .4rem .4rem 0;
     cursor: pointer;
-    transition: .3s;
+    transition: background .3s;
 }
 
 button:hover {
-    background-color: #5151ee;
+    background: #5151ee;
 }
 
 form {
