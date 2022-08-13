@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Adivinhação | Ricardo Junior</title>
+
+    <!-- styles -->
+    <link rel="shortcut icon" href="https://img.icons8.com/bubbles/344/question-mark.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <!-- scripts -->
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <main>
@@ -16,7 +25,7 @@
             <p>Advinhe o número entre 0 e 10</p>
 
             <form>
-                <input id="inputNumber" type="text" />
+                <input id="inputNumber" type="number" placeholder="0" />
                 <button id="btnTry">Tentar</button>
             </form>
         </div>
@@ -26,7 +35,5 @@
             <button id="btnReset">Jogar novamente</button>
         </div>
     </main>
-
-    <script src="./main.js"></script>
 </body>
 </html>

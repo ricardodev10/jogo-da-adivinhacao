@@ -64,7 +64,7 @@ input {
     background: #DCE2E9;
     border-radius: .4rem 0 0 .4rem;
 
-    width: 5rem;
+    width: 7rem;
 }
 
 button {
@@ -101,4 +101,11 @@ h2 {
 
 .screen2 button {
     border-radius: .4rem;
+}
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 1.6rem;
+    }
 }
